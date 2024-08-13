@@ -1,0 +1,15 @@
+module.exports.authController = require('./auth.controller');
+module.exports.userController = require('./user.controller');
+module.exports.serviceTypeContoller = require('./serviceType.controller');
+module.exports.laundaryServiceController = require('./laundaryService.controller');
+module.exports.clothController = require('./cloth.controller');
+module.exports.clothServicePricingController = require('./clothServicePricing.controller');
+module.exports.addressController = require('./address.controller');
+module.exports.announcementController = require('./announcement.controller');
+module.exports.couponController = require('./coupon.controller');
+module.exports.issueTypeController = require('./issueType.controller');
+module.exports.issueController = require('./issue.controller');
+module.exports.orderController = require('./order.controller');
+module.exports.orderItemController = require('./orderItem.controller');
+module.exports.userCouponController = require('./userCoupon.controller');
+module.exports.paymentController = require('./payment.controller');

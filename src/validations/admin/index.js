@@ -1,0 +1,15 @@
+module.exports.authValidation = require('./auth.validation');
+module.exports.userValidation = require('./user.validation');
+module.exports.serviceTypeValidation = require('./serviceType.validation');
+module.exports.laundaryServiceValidation = require('./laundaryService.validation');
+module.exports.clothValidation = require('./cloth.validation');
+module.exports.clothServicePricingValidation = require('./clothServicePricing.validation');
+module.exports.addressValidation = require('./address.validation');
+module.exports.announcementValidation = require('./announcement.validation');
+module.exports.couponValidation = require('./coupon.validation');
+module.exports.issueTypeValidation = require('./issueType.validation');
+module.exports.issueValidation = require('./issue.validation');
+module.exports.orderValidation = require('./order.validation');
+module.exports.orderItemValidation = require('./orderItem.validation');
+module.exports.userCouponValidation = require('./userCoupon.validation');
+module.exports.paymentValidation = require('./payment.validation');

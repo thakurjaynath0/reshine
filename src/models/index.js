@@ -1,0 +1,14 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.ServiceType = require('./serviceType.model');
+module.exports.LaundaryService = require('./laundaryService.model');
+module.exports.Cloth = require('./cloth.model');
+module.exports.ClothServicePricing = require('./clothServicePricing.model');
+module.exports.Address = require('./address.model');
+module.exports.Announcement = require('./announcement.model');
+module.exports.Coupon = require('./coupon.model');
+module.exports.IssueType = require('./issueType.model');
+module.exports.Issue = require('./issue.model');
+module.exports.Order = require('./order.model');
+module.exports.OrderItem = require('./orderItem.model');
+module.exports.UserCoupon = require('./userCoupon.model');

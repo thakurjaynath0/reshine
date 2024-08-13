@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "name": "app",
+      "script": "src/index.js",
+      "instances": 1,
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "jobs",
+      "script": "jobs/schedule.js",
+      "instances": 1,
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
